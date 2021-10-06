@@ -1,0 +1,6 @@
+@media screen and (max-width: 1600px) {
+    .header__container,
+    .hero .container {
+        width: 1110px;
+    }
+}

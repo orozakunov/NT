@@ -1,0 +1,66 @@
+.button {
+  position: relative;
+  background: #00C9E0;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  border-radius: 183px;
+  padding: 20px 48px;
+  font-family: Larsseit, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 190%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.button::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 30px;
+  height: 2px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  transform: translateX(50%);
+}
+
+
+.subtitle{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.title {
+    margin: 0;
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+  .col-6{
+      width: 50%;
+  }
+ 
+  
