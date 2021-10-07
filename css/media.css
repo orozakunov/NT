@@ -100,4 +100,37 @@
     .col-6 {
         width: 100%;
     }
+    .about__right{
+        display: inline-grid
+    }
+    .about-item{
+        width: auto;
+    }
+    .about__left .title{
+        font-size: 50px;
+    }
+    .bold{
+        font-size: 12px;
+    }
+    .people .title{
+        font-size: 50px;
+       margin-right: 350px;
+    }
+    .people .subtitle{
+        margin: 40px 3px 70px;
+    }
+    .people__row .col-6 {
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    .people__row{
+        display: inline;
+    }
+    .people .subtitle {
+        margin-bottom: 2px;
+    }
+    .people-item{
+        padding: 100px 200px 100px 100px;
+
+    }
 }

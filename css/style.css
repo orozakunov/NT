@@ -658,6 +658,7 @@ body .bold {
     color: #FFFFFF;  
 }
 .footer__social img{
+    flex-direction: row;
 }
 .footer__social li{
     list-style: none;
