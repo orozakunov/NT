@@ -632,22 +632,51 @@ body .bold {
     color: #FFFFFF;
     text-decoration: none;    
 }
-.footer__social{
-    position: absolute;
-    display: flex;
-    right: 20px;
-    margin-bottom: 15px;
+.goodbye__subtitle{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    
+    text-align: center;
+    letter-spacing: 0.07em;
+    
+    color: #FFFFFF;
 }
-.footer__social::before{
-    content: '';
-    position: absolute;
-    left: -15px;
-    bottom: -10px;
-    width: 40px;
-    height: 7px;
-    background:url(../img/footer-line.svg)
+.footer__social span{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;  
+}
+.footer__social img{
 }
 .footer__social li{
     list-style: none;
+    margin-top: 10px;
 }
 
+.footer__copyright {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-family: Larsseit,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.footer__logo {
+    display: block;
+    text-align: center;
+}
