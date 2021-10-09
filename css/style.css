@@ -65,7 +65,7 @@ body {
 }
 
 .hero__subtitle {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -77,7 +77,7 @@ body {
 }
 
 .hero__description {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -119,7 +119,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 170px;
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -155,20 +155,10 @@ body {
 body {
     background: #011627;
 }
-.title {
-    margin: 0;
-    font-family: Noe Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 110%;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
-}
+
 .trip__description {
     margin: 0;
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -190,7 +180,7 @@ body {
     padding-left: 0;
 }
 .trip__nav li {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -226,7 +216,7 @@ body {
     border-radius: 8px;
 }
 .slider-item h4 {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -235,7 +225,7 @@ body {
     color: #FFFFFF;
 }
 .slider-item span {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -331,7 +321,7 @@ body {
       padding-left: 126px;
   }
   .trip__right h3 {
-    font-family: Noe Display;
+    font-family: Noe Display,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
@@ -341,7 +331,7 @@ body {
     margin-bottom: 35px;
   }
   .trip__right p {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -355,7 +345,7 @@ body {
     font-weight: 400;
     margin-bottom: 45px;
   }
- 
+
   .slider-item__text::before {
     content: '';
     position: absolute;
@@ -375,7 +365,7 @@ body {
       margin-right: 25px;
   }
   .trip__social span {
-    font-family: Larsseit;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -404,11 +394,6 @@ body {
       height: 32px;
   }
 
-
-  .container {
-    max-width: 1260px;
-    margin: 0 auto;
-  }
   .about {
       padding-top: 200px;
   }
@@ -461,25 +446,27 @@ body .bold {
     position: absolute;
     left: 0;
     top: 0;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 .about-item:hover .about-item__info  {
     opacity: 1;
     left: -50px;
+    bottom: 50px;
 }
 .about-item:hover::before {
-    width: 0%;
+    width: 0;
+    height: 0;
 }
 .about-item__info {
     opacity: 0;
     position: absolute;
-    left: -70px;
-    bottom: 50px;
+    left: -100px;
+    bottom: 0;
     background: #FFFFFF;
     box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
     border-radius: 8px;
     padding: 26px 20px;
-    transition: 0.3s;
+    transition: 0.8s;
 }
 .about-item__info h5 {
     font-family: Larsseit,sans-serif;
@@ -489,6 +476,7 @@ body .bold {
     line-height: 150%;
     letter-spacing: 0.05em;
     color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .about-item__info span {
     color: #00C9E0;
@@ -504,167 +492,114 @@ body .bold {
 .people .container {
     background-color: #011627;
 }
-.people .subtitle{
-    margin: 40px 330px 70px;
-    font-size: 30px;
+.people .subtitle {
+    margin: 40px 0 70px;
 }
-.people-item__title{
-    font-family: Larsseit;
+.people-item__title {
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 190%;
-    /* or 34px */
-    
-    
     color: #FFFFFF;
     margin-bottom: 25px;
 }
-.people-item__description{
-    font-family: Larsseit;
+.people-item__description {
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 190%;
-    /* or 34px */
-    
-    
     color: #FFFFFF;
     margin-bottom: 35px;
-  }
-  .people-item{
-    position: relative; 
-     padding: 75px 75px 75px 100px;
-     box-sizing:border-box;
+}
+.people-item {
+    position: relative;
+    padding: 75px 75px 75px 100px;
     background: #02223B;
     box-shadow: 0px 20px 30px rgba(0, 201, 224, 0.03);
     border-radius: 5px;
 }
-.people-item::before{
+.people-item::before {
     content: '';
     position: absolute;
     left: 50px;
     top: 75px;
+    background: url('../img/quotes.svg');
     width: 32px;
     height: 25px;
-    background:url(../img/skonki“.svg)
 }
-
-.people-item__bototom{
-    font-family: Larsseit;
+.people-item__bottom {
+    display: flex;
+    align-items: center;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 170%;
-    /* or 20px */
-    
-    display: flex;
-    align-items: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    
     color: #FFFFFF;
-    
-    
-  }
- .people-item img{
-     margin-right: 15px;
- }
- .people__row{
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0 -12px;
- }
-
- .people__row .col-6{
-     padding: 12px;
-     box-sizing:border-box
- }
- .goodbye .title{
-     margin-bottom: 35px;
- }
- .goodbye .subtitle{
-     max-width: 388px;
-     margin:45px auto 0px
-    
 }
-.footer{
+.people-item__bottom img {
+    margin-right: 15px;
+}
+.people__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+.people .col-6 {
+    padding: 12px;
+    box-sizing: border-box;
+}
+.goodbye  {
+    padding-bottom: 130px;
+}
+.goodbye .subtitle {
+    max-width: 388px;
+    margin: 35px auto 0;
+}
+.footer {
     padding: 130px 0 150px;
 }
-.footer__row{
+.footer__row {
     display: flex;
     justify-content: space-between;
 }
-.footer-item__title{
+.footer-item__title {
     position: relative;
-    font-family: Larsseit, sans-serif;
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height */
-    
     text-transform: uppercase;
-    
     color: #FFFFFF;
-    margin-bottom: 45px;
+    margin-bottom: 46px;
 }
-.footer-item__title::before{
+.footer-item__title::before {
     content: '';
     position: absolute;
     left: 0;
     bottom: -20px;
+    background: url('../img/line-footer.svg');
     width: 56px;
     height: 7px;
-    background:url(../img/footer-line.svg)
 }
- .footer-item__list li{
-     margin-bottom: 20px;
-     list-style: none;
- }
-.footer-item__list a{
-    font-family: Larsseit, sans-serif;
+.footer-item__list li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.footer-item__list a {
+    font-family: Larsseit,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 19px;
-    
     color: #FFFFFF;
-    text-decoration: none;    
+    text-decoration: none;
 }
-.goodbye__subtitle{
-    font-family: Larsseit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 150%;
-    /* or 36px */
-    
-    text-align: center;
-    letter-spacing: 0.07em;
-    
-    color: #FFFFFF;
-}
-.footer__social span{
-    font-family: Larsseit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    /* identical to box height */
-    
-    text-transform: uppercase;
-    
-    color: #FFFFFF;  
-}
-.footer__social img{
-    flex-direction: row;
-}
-.footer__social li{
-    list-style: none;
-    margin-top: 10px;
-}
-
 .footer__copyright {
     margin-top: 70px;
     margin-bottom: 25px;

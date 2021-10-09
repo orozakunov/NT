@@ -3,7 +3,9 @@
     .hero .container {
         width: 1110px;
     }
-}@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-width: 576px) {
     .hero {
         background-position-y: -20vh;
     }
@@ -50,7 +52,7 @@
     .trip__description {
         font-size: 12px;
     }
-    trip__nav {
+    .trip__nav {
         margin-top: 40px;
         margin-bottom: 20px;
     }
@@ -67,7 +69,7 @@
     }
     .trip__content {
         flex-direction: column-reverse;
-    } 
+    }
     .trip__right {
         padding: 0;
         margin-bottom: 200px;
@@ -97,45 +99,55 @@
         left: 40%;
         transform: translate(-50%,-50%);
     }
+    .about__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__left {
+        width: auto;
+        padding-right: 50px;
+        text-align: center;
+        padding: 0;
+    }
+    .about .title {
+        padding-left: 70px;
+        padding-bottom: 30px;
+    }
+    .about .button {
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+    .about__right {
+        width: 200%;
+        flex-direction: column;
+    }
+    .about-item {
+        position: relative;
+        width: 50%;
+    }
+    .about-item::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 0.5s;
+    }
+    .about-item:hover .about-item__info  {
+        opacity: 1;
+        left: -14px;
+    }
+    .about-item__info {
+        padding: 20px;
+    }
     .col-6 {
         width: 100%;
     }
-    .about__right{
-        display: inline-grid
-    }
-    .about-item{
-        width: auto;
-    }
-    .about__left .title{
-        font-size: 50px;
-    }
-    .bold{
-        font-size: 12px;
-    }
-    .people .title{
-        font-size: 50px;
-       margin-right: 350px;
-    }
-    .people .subtitle{
-        margin: 40px 3px 70px;
-    }
-    .people__row .col-6 {
-        padding: 12px;
-        box-sizing: border-box;
-    }
-    .people__row{
-        display: inline;
-    }
-    .people .subtitle {
-        margin-bottom: 2px;
-    }
-    .people-item{
-        padding: 100px 200px 100px 100px;
-    }
-    .goodbye .title{
-        font-size: 50px;
-    }
-    .footer__row{
-        display: block;
+    .footer__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }
